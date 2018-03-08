@@ -1,0 +1,61 @@
+{% extends "includes/layout.html" %}
+
+{% block body %}
+
+{% include "includes/_navbar.html" %}
+
+<link rel="stylesheet" href="/static/css/technology.css" type="text/css" >
+
+
+<div style="text-align:center;" class="description">
+<table width=100% height=100% style="font-family:Calibri;">
+<tr>
+    <td width=50% style="padding: 20px;">
+<h1> Sentiment Analysis - What is it?</h1>
+
+<p>
+At the most basic level, sentiment analysis is the attempt to derive the emotion or 'feeling' of a body of text. The field of sentiment analysis and opinion mining usually also involves some form of data mining to get the text. Many times, the field of natural language processing is also used.
+</p>
+<h1> How does sentiment analysis work?</h1>
+<p>
+   
+    There are many ways that people analyze bodies of text for sentiment or opinions, but it usually boils down to two methods.
+    </p>
+    <h3>1. "Bag of Words" Model:</h3>
+    
+    This model focuses completely on the words, or sometimes a string of words, but usually pays no attention to the "context" so-to-speak. The bag of words model usually has a large list, probably better thought of as a sort of "dictionary," which are considered to be words that carry sentiment. These words each have their own "value" when found in text. The values are typically all added up and the result is a sentiment valuation. The equation to add and derive a number can vary, but this model mainly focuses on the words, and makes no attempt to actually understand language fundamentals.
+    
+    <h3>2. Using Natural Language Processing, and the attempt to truly "understand" the text:</h3>
+    
+    This model attempts to have the machine actually understand the sentences structures, context, and is more focused on the succession of a string of words. Usually, this structure requires the machine to have understanding of grammar principles. To do this, Natural Language Processing (NLP) techniques are used to tag parts of speech, named entities, and more, in order to actually understand the "language" of the text, and not just look for target words.
+    
+    
+    
+</td>
+<td>
+<div class="line"></div>
+</td>
+<td width=50% style="padding: 20px;">
+    
+  <h1>Which form of sentiment analysis is better?</h1>
+  <p>Both models can actually end up being very intense in their processes. Both models can also have similar accuracy in the end, so the choice between them usually depends on area of expertise or interest.<br>
+  
+  The "Bag of Words" models usually have massive amounts of machine learning that are built in, and required. This often comes in the form of neural networks or support vector machines. The idea of these is to recognize patterns in data, in order to value words. Keep in mind though, the "Bag of Words" model is always seeing things as "objects" at best. There's never actually any attempt at understanding of grammar or sentence structure behind the text, besides pre-defined strings and words.<br>
+  
+  The attempts to truly understand the text, while possibly not requiring as much data to be machine learned against, is equally as difficult. Usually, the attempt to fully understand the text involves more "context" and word "succession" so to speak, without pre-built rules for exact structures. This model can indeed wind up using just as much machine learning as the past, but then, in my opinion, it winds up straying more to the side of "bag of words" as it does this.<br>
+  
+  In a pure "Bag of Words" model, the following sentence would likely be thought of as being the same:
+  <br>
+  "That's true, I am not a fan."
+<br>
+vs
+<br>
+"That's not true, I am a fan."
+<br>
+In the end, it is more likely that a hybrid of these two is going to be the best option.
+  </p>
+</td></tr></table>
+</div>
+
+
+{% endblock %}

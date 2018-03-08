@@ -1,0 +1,24 @@
+{% extends 'includes/layout.html' %}
+
+<link rel="stylesheet" href="/static/css/search.css" type="text/css" >
+
+{% block body %}
+
+	{% include 'includes/_navbar.html' %}
+
+
+	<div style = "margin-top: 4%;">
+		<p style="text-align:center;"><img src="/static/assets/logoFinal.png" alt="Logo"></p>
+		<div  style="margin-left:29%;">
+		<form action="/analyze" method="post" class="form-inline my-2 my-lg-0">
+		    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="height:300%;width:50%; "id="search" name="search">
+		    <input type = "submit" value = "Analyze" class="btn btn-primary" id="searchbtn"/>
+		    <!-- <button type="button" class="btn btn-primary" id="searchbtn">Search</button> -->
+		</form>
+		</div>
+	</div>
+
+
+	<script src="/static/js/search.js"></script>
+
+{% endblock %}

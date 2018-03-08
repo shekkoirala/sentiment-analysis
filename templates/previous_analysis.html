@@ -1,0 +1,43 @@
+{% extends "includes/layout.html" %}
+
+
+{% block body %}
+
+{% include "includes/_navbar.html" %}
+
+<div class="container" style="margin-top: 2%">
+	<h1> <center> Analysis History </center></h1>
+	<table class="table table-striped" style="margin-top: 1%;">
+
+	  <thead>
+	    <tr>
+	      <th scope="col">Key Word</th>
+	      <th scope="col">Positive Score</th>
+	      <th scope="col">Negative Score</th>
+	      <th scope="col">Analyzed Date</th>
+	    </tr>
+	  </thead>
+
+
+	  <tbody>
+	  {% for item in data %}
+
+		<tr>
+	      <td>{{item.tag}}</td>
+	      <td>{{item.pos}}</td>
+	      <td>{{item.neg}}</td>
+	      <td>{{item.time}}</td>
+	    </tr>
+
+	  {% endfor %}
+	  </tbody>
+	
+
+	</table>
+</div>
+
+	
+
+
+
+{% endblock %}

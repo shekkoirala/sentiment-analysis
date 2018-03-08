@@ -1,0 +1,29 @@
+*
+{
+    margin:2px;
+}
+.signin-form-group,.form-group,.btn {
+    margin-right: 2%;
+}
+.form-group
+{
+    margin-top:4%;
+}
+.btn{
+    margin-top:7%;
+}
+
+.with_twitter{
+    margin-left: 7%;
+}
+.signUp{
+    margin-top: 4%;
+    margin-left: 21%;
+}
+.signinform{
+    float:left;
+    margin-top: 10%;
+}
+.inputfield{
+    margin-top: 1%;
+}

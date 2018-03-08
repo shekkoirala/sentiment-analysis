@@ -1,0 +1,7 @@
+p{
+    font-weight: bold;
+}
+.card {
+    position: relative;
+    display: inline-block;
+}

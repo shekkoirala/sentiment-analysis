@@ -1,0 +1,16 @@
+.aobject {
+    min-width: 100%;
+    height:110%;
+    
+  }
+  .red {
+    color: red
+}
+
+#navbar-nav li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    line-height:26px;
+    padding-left:5px;
+}
