@@ -1,7 +1,7 @@
 # Sentiment-Analysis
 
 # How to run?
-### requirements are listed in requirements.txt just pip install that inside a virtual environment
+### requirements are listed in requirements.txt, just pip install that inside a virtual environment
 ### run the instance of mongodb server
 ### <code> mongod --dbpath="{path_to_the_database}" (Note: I have included all my database under database/mongodb_database)
 ### all the analysis is done by sentimentAPI.py
