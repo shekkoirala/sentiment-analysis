@@ -18,3 +18,6 @@
 ![histroy](https://user-images.githubusercontent.com/11765482/37170415-d8f7bddc-2332-11e8-96bb-df58adbad1d4.PNG)
 ![about](https://user-images.githubusercontent.com/11765482/37170419-db765fc8-2332-11e8-87d8-fb7dbc2a431c.PNG)
 ![livesentiment2](https://user-images.githubusercontent.com/11765482/37170428-e4b15b6a-2332-11e8-975a-a677789506b0.PNG)
+
+# How api returns data?
+![api](https://user-images.githubusercontent.com/11765482/37170984-85d01396-2334-11e8-9d79-1b1fe2db2d60.PNG)
