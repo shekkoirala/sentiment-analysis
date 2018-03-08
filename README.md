@@ -7,7 +7,7 @@
 ### all the analysis is done by sentimentAPI.py
 ### sentimentAPI is a REST api, upon request it streams tweets in new thread and perform analysis
 ### so run the sentimentAPI with <code> python sentimentAPI.py </code>
-### app.py is client app that requests sentimentAPI for the analysis and shows the real time analysis while streaming from twitter uing web-sockets 
+### app.py is client app that requests sentimentAPI for the analysis, and shows the real time analysis while streaming from twitter uing web-sockets in a spline graph
 ### run app.py <code> python app.py </code>
 ### use url <code> http://localhost:5000 </code> to use the app
 
