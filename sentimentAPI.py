@@ -1,4 +1,4 @@
-__author__ = "Bipin Oli"
+__author__ = "SentX Team"
 
 import threading
 from flask import Flask, jsonify
